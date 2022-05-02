@@ -1,0 +1,54 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 24px 48px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 3;
+  }
+  
+  .container .btn:hover {
+    background-color: transparent;
+  }
+  
+  .white_bg 
+  {
+      background-color: grey;
+      border: 1px solid grey;
+      position: relative;
+      z-index: 2;
+      opacity: 0;
+      top: -450px;
+      left: 300px;
+  }
+  .white_bg_show 
+  {
+      background-color: grey;
+      border: 1px solid grey;
+      position: relative;
+      z-index: 2;
+      top: -450px;
+      left: 300px;
+      opacity: 1;
+  }
